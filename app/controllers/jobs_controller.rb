@@ -9,7 +9,7 @@ class JobsController < ApplicationController
 	    @jobs = Job.where(category_id: @category_id).order("created_at DESC")
 	  end
 	end
-
+    
 	def show
 		
 	end
